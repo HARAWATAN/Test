@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <script type="text/javascript" src="test.js"></script>
-    <title>アツコにおまかせ</title>
+    <title>アツコにおまたせ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onLoad="disp()">
-    <h1>Hello,World!</h1>
-    <p>アツコにおまたせ</p>
-<form action="#" name="form1">
-    <input type="text" name="field1" size="15">
-</form>
+    <div class = "container">
+        <div class="header">
+            <div id="name">
+                <script>
+                    var name1 = document.getElementById("name");
+                    name1.insertAdjacentHTML("afterend", "<p>"+msg+"</p>");
+                </script>
+            </div>
+            <h1>Hello,World!</h1>
+            <p>アツコにおまたせ</p>
+        </div>
+    
+        <form action="#" name="form1">
+            <input type="text" name="field1" size="15">
+        </form>
+        <footer>
+            <p>アツコをおまたせ</p>
+        </footer>
+    </div>
 </body>
 </html>

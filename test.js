@@ -9,6 +9,6 @@ function disp(){
 
     document.form1.field1.value = msg;
 
-
     setTimeout("disp()", speed);
+
 }

@@ -1,0 +1,30 @@
+body {
+    background: darkgray;
+}
+
+.container {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+footer {
+    background: lightblue;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header {
+    background-image: url(Sky.jpg);
+    
+    max-width: 100%;
+
+}
