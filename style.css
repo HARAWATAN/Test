@@ -9,10 +9,9 @@ body {
     padding: 2rem;
 }
 
-img {
-    max-width: 100%;
-    
-}
+/*img {
+    size: 50%;
+}*/
 
 footer {
     background: lightblue;
@@ -26,5 +25,6 @@ footer {
     background-image: url(Sky.jpg);
     
     max-width: 100%;
+    color: white;
 
 }
