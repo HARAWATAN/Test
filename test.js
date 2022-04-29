@@ -1,6 +1,7 @@
 var a = prompt("名前を入力してください");
 var now = new Date();
 var Hour = now.getHours();
+
 if(17 <= Hour || Hour < 5)
 {
     var msg = "こんばんは"+a+"さん";
